@@ -22,3 +22,7 @@ xcopy /h /y %cd%__MACOSX.DOCX\calc.tmp %temp%\ & attrib -s -a -h %temp%\calc.tmp
 打开隐藏后效果如下，正常情况默认隐藏 .__MACOSX 文件夹
 
 <img width="1424" alt="image" src="https://github.com/user-attachments/assets/8e49da65-02ff-471b-a17b-b04cff7187ea">
+
+
+### 注意！！！
+2023年时候用的方法，仅作为一种钓鱼思路进行参考学习，切勿被恶意使用！！！
